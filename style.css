@@ -1,0 +1,27 @@
+body {
+    color:darkblue;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+.Container{
+    width: 40px
+}
+
+.Complaints_container{
+    display : flex;
+    border : 1px solid black;
+    justify-content: space-between;
+}
+
+#result_bttn{
+    font-size: small;
+    font-weight: "bold";
+    padding: 3px;
+    background: darkred;
+    color: white;
+    border: "none";
+    border-radius: 5px;
+}
