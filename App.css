@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainC{
+  display: grid;
+  grid-template-rows: repeat(3 , 1fr);
+  grid-template-columns: repeat(4 ,1fr);
+  border: 2px black ;
+  height: 100vh;
+  gap: 25px;
+  padding: 10px;
+  background-color: whitesmoke;
+
+}
+
+.Dash{
+  grid-column: 1/2;
+  grid-row: 1/4;
+  border: 2px solid transparent;
+  background-color: lightgrey;
+  display: flex;
+  align-items:  stretch;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  align-content: space-around;
+}
+
+.box{
+  border: 2px solid transparent;
+  background-color: lightgrey;
+}
+
+.Visitors{
+  border: 2px solid transparent;
+  grid-column: 2/span 3;
+  grid-row: 2/span 3;
+  background-color: lightgrey;
+  
+}
